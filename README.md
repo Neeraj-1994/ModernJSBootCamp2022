@@ -14,6 +14,28 @@
 
 1.5 A Quick Note About MDN
 
+### 2. Js Values & Variables
+
+2.1 Goals & Primitives
+
+2.2 Running Code in the JS Console
+
+2.3 Introducing Numbers
+
+2.4 NaN & Infinity
+
+2.5 Numbers Quiz
+
+2.6 Variables & Let
+
+2.7 Unary Operators
+
+2.8 Introducing Const
+
+2.9 The Legacy of Var
+
+2.10 Variables Quiz
+
 ## Branching Diagram
 
 ## Resource Notes
