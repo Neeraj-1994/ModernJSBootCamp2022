@@ -36,6 +36,32 @@
 
 2.10 Variables Quiz
 
+### 3. How To Model Data Efficiently
+
+3.1 Booleans Intro
+
+3.2 Strings
+
+3.3 String Indices
+
+3.4 String Methods
+
+3.5 More String Methods
+
+3.6 Strings Quiz
+
+3.7 String Escape Characters
+
+3.8 String Template Literals
+
+3.9 Null & undefined
+
+3.10 The Math Object & Random
+
+3.11 typeof operator
+
+3.12 parseInt & parseFloat
+
 ## Branching Diagram
 
 ## Resource Notes
