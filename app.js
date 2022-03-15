@@ -52,8 +52,9 @@ let numOfHens = 4;
 let averageRating = 9.7;
 */
 
-
+/*
 // Unary Operators
+
 let score = 0;
 
 score = score + 10;
@@ -83,3 +84,11 @@ counter--;
 
 // pre-decrement (changes value and returns the changed value)
 --counter;
+*/
+
+
+// Introducing Const
+
+const pi = 3.14159;
+
+const daysInAWeek = 7;
