@@ -35,7 +35,7 @@ console.log(1/0);
 console.log(-1/0);
 */
 
-
+/*
 // Variables & let
 
 // Basic Syntax
@@ -50,3 +50,36 @@ console.log(hens + rooster);
 // Rules of naming variables
 let numOfHens = 4;
 let averageRating = 9.7;
+*/
+
+
+// Unary Operators
+let score = 0;
+
+score = score + 10;
+
+score += 1;
+
+score += 10;
+
+score -= 100;
+
+score = 150;
+
+bonusMult = 3;
+
+score *= bonusMult;
+
+let counter = 0;
+
+// post-increment (returns the value then changes afterwards)
+counter++;
+
+// pre-increment (changes value and returns the changed value)
+++counter;
+
+// post-decrement (returns the value then changes afterwards)
+counter--;
+
+// pre-decrement (changes value and returns the changed value)
+--counter;
