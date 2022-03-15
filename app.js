@@ -94,6 +94,8 @@ const pi = 3.14159;
 const daysInAWeek = 7;
 */
 
+/*
 // The Legacy of Var
 
 var tripDistance = 7.4;
+*/
