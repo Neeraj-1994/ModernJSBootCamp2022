@@ -101,6 +101,7 @@ var tripDistance = 7.4;
 */
 
 
+/*
 // How To Model Data Efficiently
 
 // Booleans Intro
@@ -108,3 +109,18 @@ var tripDistance = 7.4;
 let isHungry = false;
 
 const isWaterWet = true;
+*/
+
+// Strings
+
+let name = 'John';
+
+let firstName = "Andrew";
+
+let lasName = `Baldwin`;
+
+let fullName = firstName + ' ' + lasName;  // Concatenation
+
+let numberOperation = 'hi' + 1;
+
+console.log(fullName);
