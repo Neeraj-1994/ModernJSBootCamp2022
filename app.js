@@ -99,3 +99,6 @@ const daysInAWeek = 7;
 
 var tripDistance = 7.4;
 */
+
+
+// How To Model Data Efficiently
