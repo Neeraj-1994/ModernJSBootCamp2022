@@ -102,3 +102,9 @@ var tripDistance = 7.4;
 
 
 // How To Model Data Efficiently
+
+// Booleans Intro
+
+let isHungry = false;
+
+const isWaterWet = true;
