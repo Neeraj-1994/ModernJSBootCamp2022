@@ -165,6 +165,7 @@ console.log(color.trim().toUpperCase());
 console.log("asdd asdasd asdasd     ".trim());
 */
 
+/*
 // More String Methods (syntax: thing.method(args))
 
 console.log("baseball".indexOf("ball"));
@@ -190,3 +191,14 @@ console.log("$50.60".slice(1));
 console.log("baseball is entertaining".replace('entertaining', 'ok'));
 
 console.log("ha ha ha".replace('ha', 'hee'));
+*/
+
+// String Escape Characters
+
+console.log("he said \"I ain\'t happy\"");
+
+console.log('he said \"I ain\'t happy\"');
+
+console.log("HELLO\nGOODBYE");
+
+console.log("\thaaa");
