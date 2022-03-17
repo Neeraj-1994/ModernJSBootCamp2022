@@ -44,7 +44,7 @@
 2.10 Variables Quiz
 </details>
 
-<details open>
+<details>
 <summary>
 <span style="font-size: 16px; font-weight: bold;">3. How To Model Data Efficiently</span>
 </summary>
@@ -74,6 +74,46 @@
 3.12 parseInt & parseFloat
 </details>
 
+<details open>
+<summary>
+<span style="font-size: 16px; font-weight: bold;">4. Controlling Program Logic & Flow</span>
+</summary>
+
+4.1 Making Decisions in JS
+
+4.2 Comparison Operators
+
+4.3 Double Equals (==)
+
+4.4 Triple Equals (===)
+
+4.5 Running Code From a Script
+
+4.6 If Statements
+
+4.7 Else If
+
+4.8 Else
+
+4.9 Nesting Conditionals
+
+4.10 Truthy & Falsy Values
+
+4.11 Logical AND (&&)
+
+4.12 Logical OR ()
+
+4.13 NOT Operator (!)
+
+4.14 Operator Precedence
+
+4.15 The Switch Statement
+
+4.16 Ternary Operator
+</details>
+
 ## Branching Diagram
+
+1. [Branching Diagram](https://app.diagrams.net/#G18_Q16Z5O_S9tZVGjFjClG8nCmuZb-920)
 
 ## Resource Notes
