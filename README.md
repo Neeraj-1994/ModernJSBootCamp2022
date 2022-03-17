@@ -101,7 +101,7 @@
 
 4.11 Logical AND (&&)
 
-4.12 Logical OR ()
+4.12 Logical OR (||)
 
 4.13 NOT Operator (!)
 
