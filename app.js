@@ -242,6 +242,7 @@ let color; // Nothing assigned
 console.log(loggedInUser, color);
 */
 
+/*
 // Math Object & Random Numbers
 
 console.log(Math.PI);
@@ -255,3 +256,17 @@ console.log(Math.pow(7, 2));
 console.log(Math.random());
 
 console.log(Math.floor(Math.random()*6)+ 1); // Random die roll
+*/
+
+// typeof Operator
+
+console.log(typeof 99);
+
+console.log(typeof true);
+
+let mystery = "99 balloons";
+console.log(typeof mystery);
+
+console.log(typeof undefined);
+
+console.log(typeof null);
