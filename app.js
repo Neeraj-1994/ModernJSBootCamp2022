@@ -111,6 +111,7 @@ let isHungry = false;
 const isWaterWet = true;
 */
 
+/*
 // Strings
 
 let name = 'John';
@@ -124,3 +125,20 @@ let fullName = firstName + ' ' + lasName;  // Concatenation
 let numberOperation = 'hi' + 1;
 
 console.log(fullName);
+*/
+
+// String Indices
+
+let animal = 'chicken';
+
+console.log(animal.length);
+
+let mySong = "Surfin' USA";
+
+console.log(mySong[0]);
+
+console.log(mySong[11]);
+
+let gibberish = "asdasdasdasnbcxnzvchjvehawdhjsbdsabcjhsd*(,., sajhdu";
+
+console.log(gibberish[gibberish.length - 1]);
