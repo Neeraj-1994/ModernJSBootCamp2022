@@ -1,4 +1,6 @@
 /*
+// JS Values & Variables
+
 // Introducing Numbers
 
 // Addition
@@ -100,6 +102,7 @@ const daysInAWeek = 7;
 var tripDistance = 7.4;
 */
 
+/*--------------------------------------------------------------------------------------------------*/
 
 /*
 // How To Model Data Efficiently
@@ -165,6 +168,7 @@ console.log(color.trim().toUpperCase());
 console.log("asdd asdasd asdasd     ".trim());
 */
 
+/*
 // More String Methods (syntax: thing.method(args))
 
 console.log("baseball".indexOf("ball"));
@@ -190,3 +194,94 @@ console.log("$50.60".slice(1));
 console.log("baseball is entertaining".replace('entertaining', 'ok'));
 
 console.log("ha ha ha".replace('ha', 'hee'));
+*/
+
+/*
+// String Escape Characters
+
+console.log("he said \"I ain\'t happy\"");
+
+console.log('he said \"I ain\'t happy\"');
+
+console.log("HELLO\nGOODBYE");
+
+console.log("\thaaa");
+*/
+
+/*
+// String Template Literals
+
+console.log(`he said "lol"`);
+
+console.log(`${1+5}`);
+
+console.log(`You owe me ${100+123123}`);
+
+let animal = 'pig';
+
+let sound = 'oink';
+
+console.log(`${animal} says ${sound}!`);
+
+console.log(`${animal} says ${sound.toUpperCase()}!`);
+
+const minAge = 21;
+
+const yourAge = 19;
+
+console.log(`You must be ${minAge} or older to enter. Come back in ${minAge-yourAge} years.`);
+*/
+
+/*
+// Null & Undefined
+
+let loggedInUser = null; // Intentionally empty
+
+let color; // Nothing assigned
+
+console.log(loggedInUser, color);
+*/
+
+/*
+// Math Object & Random Numbers
+
+console.log(Math.PI);
+
+console.log(Math.floor(3.657));
+
+console.log(Math.round(4.4));
+
+console.log(Math.pow(7, 2));
+
+console.log(Math.random());
+
+console.log(Math.floor(Math.random()*6)+ 1); // Random die roll
+*/
+
+/*
+// typeof Operator
+
+console.log(typeof 99);
+
+console.log(typeof true);
+
+let mystery = "99 balloons";
+console.log(typeof mystery);
+
+console.log(typeof undefined);
+
+console.log(typeof null);
+*/
+
+/*
+// parseInt & parseFloat
+
+console.log(parseInt("21"));
+console.log(parseInt("21") + 1);
+console.log(parseFloat("33.55434534"));
+console.log(parseInt("123.1231231"));
+console.log(parseInt('$99'));
+console.log(parseFloat("99days Later"))
+*/
+
+/*--------------------------------------------------------------------------------------------------*/
