@@ -208,6 +208,7 @@ console.log("HELLO\nGOODBYE");
 console.log("\thaaa");
 */
 
+/*
 // String Template Literals
 
 console.log(`he said "lol"`);
@@ -229,3 +230,12 @@ const minAge = 21;
 const yourAge = 19;
 
 console.log(`You must be ${minAge} or older to enter. Come back in ${minAge-yourAge} years.`);
+*/
+
+// Null & Undefined
+
+let loggedInUser = null; // Intentionally empty
+
+let color; // Nothing assigned
+
+console.log(loggedInUser, color);
