@@ -127,6 +127,7 @@ let numberOperation = 'hi' + 1;
 console.log(fullName);
 */
 
+/*
 // String Indices
 
 let animal = 'chicken';
@@ -142,3 +143,22 @@ console.log(mySong[11]);
 let gibberish = "asdasdasdasnbcxnzvchjvehawdhjsbdsabcjhsd*(,., sajhdu";
 
 console.log(gibberish[gibberish.length - 1]);
+*/
+
+// String Methods
+
+let msg = "you are so grounded mr";
+
+console.log(msg.toUpperCase());
+
+msg = msg.toUpperCase();
+
+console.log(msg.toLowerCase());
+
+let color = "    purple     ";
+
+console.log(color.trim());
+
+console.log(color.trim().toUpperCase());
+
+console.log("asdd asdasd asdasd     ".trim());
