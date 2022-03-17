@@ -273,6 +273,7 @@ console.log(typeof undefined);
 console.log(typeof null);
 */
 
+/*
 // parseInt & parseFloat
 
 console.log(parseInt("21"));
@@ -281,3 +282,6 @@ console.log(parseFloat("33.55434534"));
 console.log(parseInt("123.1231231"));
 console.log(parseInt('$99'));
 console.log(parseFloat("99days Later"))
+*/
+
+/*--------------------------------------------------------------------------------------------------*/
