@@ -232,6 +232,7 @@ const yourAge = 19;
 console.log(`You must be ${minAge} or older to enter. Come back in ${minAge-yourAge} years.`);
 */
 
+/*
 // Null & Undefined
 
 let loggedInUser = null; // Intentionally empty
@@ -239,3 +240,48 @@ let loggedInUser = null; // Intentionally empty
 let color; // Nothing assigned
 
 console.log(loggedInUser, color);
+*/
+
+/*
+// Math Object & Random Numbers
+
+console.log(Math.PI);
+
+console.log(Math.floor(3.657));
+
+console.log(Math.round(4.4));
+
+console.log(Math.pow(7, 2));
+
+console.log(Math.random());
+
+console.log(Math.floor(Math.random()*6)+ 1); // Random die roll
+*/
+
+/*
+// typeof Operator
+
+console.log(typeof 99);
+
+console.log(typeof true);
+
+let mystery = "99 balloons";
+console.log(typeof mystery);
+
+console.log(typeof undefined);
+
+console.log(typeof null);
+*/
+
+/*
+// parseInt & parseFloat
+
+console.log(parseInt("21"));
+console.log(parseInt("21") + 1);
+console.log(parseFloat("33.55434534"));
+console.log(parseInt("123.1231231"));
+console.log(parseInt('$99'));
+console.log(parseFloat("99days Later"))
+*/
+
+/*--------------------------------------------------------------------------------------------------*/
