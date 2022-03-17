@@ -285,3 +285,23 @@ console.log(parseFloat("99days Later"))
 */
 
 /*--------------------------------------------------------------------------------------------------*/
+
+// Controlling Program Logic & Flow
+
+// Comparison Operators
+
+console.log(-2 > 1);
+
+console.log(10 < 9999999);
+
+console.log(2 >= 2);
+
+console.log(2 >= 5);
+
+console.log(55.1 <= 55.5);
+
+console.log("hello".length >= "hello!".length);
+
+console.log('a' < 'A');
+
+console.log('B' < 'a'); // Unicode characters comparison
