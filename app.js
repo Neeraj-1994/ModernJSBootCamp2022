@@ -145,7 +145,8 @@ let gibberish = "asdasdasdasnbcxnzvchjvehawdhjsbdsabcjhsd*(,., sajhdu";
 console.log(gibberish[gibberish.length - 1]);
 */
 
-// String Methods
+/*
+// String Methods (syntax: thing.method())
 
 let msg = "you are so grounded mr";
 
@@ -162,3 +163,30 @@ console.log(color.trim());
 console.log(color.trim().toUpperCase());
 
 console.log("asdd asdasd asdasd     ".trim());
+*/
+
+// More String Methods (syntax: thing.method(args))
+
+console.log("baseball".indexOf("ball"));
+
+console.log("baseball".indexOf("b"));
+
+console.log("Baseball".indexOf("b"));
+
+console.log("Baseball".indexOf("entertaining"));
+
+console.log("Baseball".slice(4));
+
+let sport = "Baseball";
+
+console.log(sport.slice(4), sport);
+
+console.log("superhero".slice(0, 5));
+
+console.log("superhero".slice(5, 7));
+
+console.log("$50.60".slice(1));
+
+console.log("baseball is entertaining".replace('entertaining', 'ok'));
+
+console.log("ha ha ha".replace('ha', 'hee'));
