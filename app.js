@@ -308,6 +308,7 @@ console.log('a' < 'A');
 console.log('B' < 'a'); // Unicode characters comparison
 */
 
+/*
 // Double Equals (==)
 
 console.log(4 == 4);
@@ -321,3 +322,29 @@ console.log(0 == '');
 console.log(0 == false);
 
 console.log(null == undefined);
+*/
+
+// Triple Equals (===)
+
+console.log(2 === '2');
+
+console.log(0 === false);
+
+console.log(undefined === null);
+
+console.log(3 === 3);
+
+console.log(null === null);
+
+let isLoggedIn = false;
+
+console.log(isLoggedIn === false);
+
+isLoggedIn = 0;
+console.log(isLoggedIn === false);
+
+console.log(1 != 2);
+
+console.log(1 != '1');
+
+console.log(1 !== '1');
