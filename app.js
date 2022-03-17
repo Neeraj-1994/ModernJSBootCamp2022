@@ -1,4 +1,6 @@
 /*
+// JS Values & Variables
+
 // Introducing Numbers
 
 // Addition
@@ -100,6 +102,7 @@ const daysInAWeek = 7;
 var tripDistance = 7.4;
 */
 
+/*--------------------------------------------------------------------------------------------------*/
 
 /*
 // How To Model Data Efficiently
@@ -193,6 +196,7 @@ console.log("baseball is entertaining".replace('entertaining', 'ok'));
 console.log("ha ha ha".replace('ha', 'hee'));
 */
 
+/*
 // String Escape Characters
 
 console.log("he said \"I ain\'t happy\"");
@@ -202,3 +206,26 @@ console.log('he said \"I ain\'t happy\"');
 console.log("HELLO\nGOODBYE");
 
 console.log("\thaaa");
+*/
+
+// String Template Literals
+
+console.log(`he said "lol"`);
+
+console.log(`${1+5}`);
+
+console.log(`You owe me ${100+123123}`);
+
+let animal = 'pig';
+
+let sound = 'oink';
+
+console.log(`${animal} says ${sound}!`);
+
+console.log(`${animal} says ${sound.toUpperCase()}!`);
+
+const minAge = 21;
+
+const yourAge = 19;
+
+console.log(`You must be ${minAge} or older to enter. Come back in ${minAge-yourAge} years.`);
