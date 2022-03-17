@@ -286,6 +286,7 @@ console.log(parseFloat("99days Later"))
 
 /*--------------------------------------------------------------------------------------------------*/
 
+/*
 // Controlling Program Logic & Flow
 
 // Comparison Operators
@@ -305,3 +306,18 @@ console.log("hello".length >= "hello!".length);
 console.log('a' < 'A');
 
 console.log('B' < 'a'); // Unicode characters comparison
+*/
+
+// Double Equals (==)
+
+console.log(4 == 4);
+
+console.log(false == false);
+
+console.log(4 == '4');
+
+console.log(0 == '');
+
+console.log(0 == false);
+
+console.log(null == undefined);
