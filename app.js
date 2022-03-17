@@ -232,6 +232,7 @@ const yourAge = 19;
 console.log(`You must be ${minAge} or older to enter. Come back in ${minAge-yourAge} years.`);
 */
 
+/*
 // Null & Undefined
 
 let loggedInUser = null; // Intentionally empty
@@ -239,3 +240,18 @@ let loggedInUser = null; // Intentionally empty
 let color; // Nothing assigned
 
 console.log(loggedInUser, color);
+*/
+
+// Math Object & Random Numbers
+
+console.log(Math.PI);
+
+console.log(Math.floor(3.657));
+
+console.log(Math.round(4.4));
+
+console.log(Math.pow(7, 2));
+
+console.log(Math.random());
+
+console.log(Math.floor(Math.random()*6)+ 1); // Random die roll
