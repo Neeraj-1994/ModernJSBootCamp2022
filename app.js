@@ -428,6 +428,7 @@ if (userScore >= highScore) {
 }
 */
 
+/*
 // Nesting Conditionals
 
 let password = 'kitty';
@@ -442,4 +443,25 @@ if (password.length >= 6) {
 }
 else {
     console.log("Password must be longer!")
+}
+*/
+
+// Truthy & Falsy Values
+
+let mystery = 1;
+
+if (mystery) {
+    console.log("TRUTHY");
+}
+else {
+    console.log("FALSY");
+}
+
+let loggedInUser = null;
+
+if (loggedInUser) {
+    console.log('YOU ARE LOGGED IN!');
+}
+else {
+    console.log('PLEASE LOG IN!');
 }
