@@ -494,6 +494,7 @@ if (num >= 1 && num <= 10) {
 }
 */
 
+/*
 // Logical OR (||)
 
 console.log(1 !== 1 || 10 === 10);
@@ -515,3 +516,86 @@ let color = 'violet';
 if (color === 'purple' || color === 'lilac' || color === 'violet') {
     console.log('Great choice!');
 }
+*/
+
+/*
+// Logical NOT (!)
+
+console.log(!null);
+
+console.log(!(0 === 0));
+
+console.log(!(3 <= 4));
+
+let loggedInUser;
+
+if (!loggedInUser) {
+    console.log('GET OUT OF HERE!');
+}
+
+let flavor = 'watermelon';
+
+if (!(flavor === 'grape' || flavor === 'cherry')) {
+    console.log("WE DON'T HAVE THAT FLAVOR!");
+}
+*/
+
+/*
+// Operator Precedence
+
+let x = 7;
+
+console.log(x === 7 || x === 3 && x > 10); // && Operator takes precedence over ||
+*/
+
+/*
+// The Switch Statement
+
+// Syntax: switch(statement) {
+// case 1: condition to be executed; break;
+// case 2: condition to be executed; break;
+// default: condition to be executed;
+// }
+
+let day = 3;
+
+switch(day) {
+    case 1: console.log('MONDAY'); break;
+    case 2: console.log('TUESDAY'); break;
+    case 3: console.log('WEDNESDAY'); break;
+    case 4: console.log('THURSDAY'); break;
+    case 5: console.log('FRIDAY'); break;
+    case 6: console.log('SATURDAY'); break;
+    case 7: console.log('SUNDAY'); break;
+    default: console.log('INVALID DAY!');
+}
+
+let emoji = 'sad face';
+
+switch(emoji) {
+    case 'sad face':
+    case 'happy face': console.log('yellow'); break;
+    case 'eggplant': console.log('purple'); break;
+    case 'lips':
+    case 'heart': console.log('red'); break;
+    default: console.log('no emoji!');
+}
+*/
+
+/*
+// Ternary Operator (Syntax: condition ? expIfTrue : expIfFalse)
+
+let num = 7;
+
+num === 7 ? console.log('lucky') : console.log('Bad');
+
+console.log(num === 7 ? 'lucky' : 'Bad');
+
+let status = 'offline';
+
+let color = status === 'offline' ? 'red' : 'green';
+
+console.log(color);
+*/
+
+/*--------------------------------------------------------------------------------------------------*/
