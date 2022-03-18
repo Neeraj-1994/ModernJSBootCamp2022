@@ -370,6 +370,7 @@ if (num % 2 !== 0) {
 }
 */
 
+/*
 // Else if
 
 // Syntax: if (statement 1) {
@@ -388,4 +389,39 @@ else if (rating === 2) {
 }
 else if (rating === 1) {
     console.log("NEEDS IMPROVEMENT");
+}
+*/
+
+// Else
+
+// Syntax: if (statement 1) {
+//         condition if statement 1 is true
+//         } else if (statement 2) {
+//         condition if statement 2 is true
+//         } else {
+//         condition if all statements are false
+//         }
+
+let rating = 21;
+
+if (rating === 3) {
+    console.log("YOU'RE A SUPERSTAR!");
+}
+else if (rating === 2) {
+    console.log("MEETS EXPECTATIONS");
+}
+else if (rating === 1) {
+    console.log("NEEDS IMPROVEMENT");
+} else {
+    console.log("INVALID RATING!");
+}
+
+let highScore = 1430;
+let userScore = 1600;
+
+if (userScore >= highScore) {
+    console.log(`Congrats, you have the new high score of ${userScore}`);
+    highScore = userScore;
+} else {
+    console.log(`Good Game. Your score of ${userScore} did not beat the high score of ${highScore}`);
 }
