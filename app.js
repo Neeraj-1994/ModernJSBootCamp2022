@@ -392,6 +392,7 @@ else if (rating === 1) {
 }
 */
 
+/*
 // Else
 
 // Syntax: if (statement 1) {
@@ -425,3 +426,176 @@ if (userScore >= highScore) {
 } else {
     console.log(`Good Game. Your score of ${userScore} did not beat the high score of ${highScore}`);
 }
+*/
+
+/*
+// Nesting Conditionals
+
+let password = 'kitty';
+
+if (password.length >= 6) {
+    if (password.indexOf(' ') === -1) {
+        console.log("Valid Password!");
+    }
+    else {
+        console.log("Password is long enough, but cannot contain spaces");
+    }
+}
+else {
+    console.log("Password must be longer!")
+}
+*/
+
+/*
+// Truthy & Falsy Values
+
+let mystery = 1;
+
+if (mystery) {
+    console.log("TRUTHY");
+}
+else {
+    console.log("FALSY");
+}
+
+let loggedInUser = null;
+
+if (loggedInUser) {
+    console.log('YOU ARE LOGGED IN!');
+}
+else {
+    console.log('PLEASE LOG IN!');
+}
+*/
+
+/*
+// Logical AND (&&)
+
+console.log(1 <= 4 && 'a' === 'a');
+
+console.log(9 > 10 && 9 >= 9);
+
+console.log('abc'.length === 3 && 1+1 === 4);
+
+let password = 'chickenGal';
+
+if (password.length >= 8 && password.indexOf(' ') === -1) {
+    console.log('VALID PASSWORD!');
+} else {
+    console.log('INVALID PASSWORD!');
+}
+
+let num = 3;
+
+if (num >= 1 && num <= 10) {
+    console.log('Number is between 1 and 10');
+} else {
+    console.log('Please guess a number between 1 and 10');
+}
+*/
+
+/*
+// Logical OR (||)
+
+console.log(1 !== 1 || 10 === 10);
+
+console.log(0 || undefined);
+
+console.log(10/2 === 5 || 1 === 1);
+
+let age = 78;
+
+if (age < 6 || age >= 65) {
+    console.log('You get in for free!');
+} else {
+    console.log('You must pay!');
+}
+
+let color = 'violet';
+
+if (color === 'purple' || color === 'lilac' || color === 'violet') {
+    console.log('Great choice!');
+}
+*/
+
+/*
+// Logical NOT (!)
+
+console.log(!null);
+
+console.log(!(0 === 0));
+
+console.log(!(3 <= 4));
+
+let loggedInUser;
+
+if (!loggedInUser) {
+    console.log('GET OUT OF HERE!');
+}
+
+let flavor = 'watermelon';
+
+if (!(flavor === 'grape' || flavor === 'cherry')) {
+    console.log("WE DON'T HAVE THAT FLAVOR!");
+}
+*/
+
+/*
+// Operator Precedence
+
+let x = 7;
+
+console.log(x === 7 || x === 3 && x > 10); // && Operator takes precedence over ||
+*/
+
+/*
+// The Switch Statement
+
+// Syntax: switch(statement) {
+// case 1: condition to be executed; break;
+// case 2: condition to be executed; break;
+// default: condition to be executed;
+// }
+
+let day = 3;
+
+switch(day) {
+    case 1: console.log('MONDAY'); break;
+    case 2: console.log('TUESDAY'); break;
+    case 3: console.log('WEDNESDAY'); break;
+    case 4: console.log('THURSDAY'); break;
+    case 5: console.log('FRIDAY'); break;
+    case 6: console.log('SATURDAY'); break;
+    case 7: console.log('SUNDAY'); break;
+    default: console.log('INVALID DAY!');
+}
+
+let emoji = 'sad face';
+
+switch(emoji) {
+    case 'sad face':
+    case 'happy face': console.log('yellow'); break;
+    case 'eggplant': console.log('purple'); break;
+    case 'lips':
+    case 'heart': console.log('red'); break;
+    default: console.log('no emoji!');
+}
+*/
+
+/*
+// Ternary Operator (Syntax: condition ? expIfTrue : expIfFalse)
+
+let num = 7;
+
+num === 7 ? console.log('lucky') : console.log('Bad');
+
+console.log(num === 7 ? 'lucky' : 'Bad');
+
+let status = 'offline';
+
+let color = status === 'offline' ? 'red' : 'green';
+
+console.log(color);
+*/
+
+/*--------------------------------------------------------------------------------------------------*/
