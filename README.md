@@ -74,7 +74,7 @@
 3.12 parseInt & parseFloat
 </details>
 
-<details open>
+<details>
 <summary>
 <span style="font-size: 16px; font-weight: bold;">4. Controlling Program Logic & Flow</span>
 </summary>
@@ -110,6 +110,40 @@
 4.15 The Switch Statement
 
 4.16 Ternary Operator
+</details>
+
+<details open>
+<summary>
+<span style="font-size: 16px; font-weight: bold;">5. Capture Collections of Data with Arrays</span>
+</summary>
+
+5.1 Creating Arrays
+
+5.2 Array Indices
+
+5.3 Modifying Arrays
+
+5.4 Push and Pop
+
+5.5 Shift and Unshift
+
+5.6 Concat
+
+5.7 Includes and IndexOf
+
+5.8 Reverse and Join
+
+5.9 Slice
+
+5.10 Splice
+
+5.11 Sorting (Part 1)
+
+5.12 Intro to Reference Types
+
+5.13 Using Const with Arrays
+
+5.14 Working with Nested Arrays
 </details>
 
 ## Branching Diagram
