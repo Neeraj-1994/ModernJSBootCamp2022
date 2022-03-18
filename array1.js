@@ -85,6 +85,7 @@ console.log(nextSong);
 console.log(topSongs);
 */
 
+/*
 // Shift and Unshift
 
 // array.unshift(arg) - Adds one or more elements to the front of an array,
@@ -149,3 +150,22 @@ console.log(dishesToDo);
 dishesToDo.unshift('small spoon', 'large spoon');
 
 console.log(dishesToDo);
+*/
+
+// Concat
+
+// array1.concat(array2) - Returns a new array that is the calling array
+// joined with other array(s) and/or value(s).
+
+let fruits = ['apple', 'banana'];
+
+let veggies = ['asparagus', 'brussel sprouts'];
+
+let meats = ['steak', 'chicken breasts'];
+
+let allFoods = fruits.concat(veggies, meats);
+
+console.log(allFoods);
+
+console.log(fruits.concat(veggies));
+console.log(veggies.concat(fruits));
