@@ -324,6 +324,7 @@ console.log(0 == false);
 console.log(null == undefined);
 */
 
+/*
 // Triple Equals (===)
 
 console.log(2 === '2');
@@ -348,3 +349,21 @@ console.log(1 != 2);
 console.log(1 != '1');
 
 console.log(1 !== '1');
+*/
+
+// If Statements (Syntax: if(statement) { condition if true }
+
+if (1 !== 1) {
+    console.log("It's True!");
+}
+let rating = 3;
+
+if (rating === 3) {
+    console.log("YOU'RE A SUPERSTAR!");
+}
+
+let num = 37;
+
+if (num % 2 !== 0) {
+    console.log("ODD NUMBER");
+}
