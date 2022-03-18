@@ -548,6 +548,7 @@ let x = 7;
 console.log(x === 7 || x === 3 && x > 10); // && Operator takes precedence over ||
 */
 
+/*
 // The Switch Statement
 
 // Syntax: switch(statement) {
@@ -579,3 +580,22 @@ switch(emoji) {
     case 'heart': console.log('red'); break;
     default: console.log('no emoji!');
 }
+*/
+
+/*
+// Ternary Operator (Syntax: condition ? expIfTrue : expIfFalse)
+
+let num = 7;
+
+num === 7 ? console.log('lucky') : console.log('Bad');
+
+console.log(num === 7 ? 'lucky' : 'Bad');
+
+let status = 'offline';
+
+let color = status === 'offline' ? 'red' : 'green';
+
+console.log(color);
+*/
+
+/*--------------------------------------------------------------------------------------------------*/
