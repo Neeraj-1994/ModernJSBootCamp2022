@@ -582,6 +582,7 @@ switch(emoji) {
 }
 */
 
+/*
 // Ternary Operator (Syntax: condition ? expIfTrue : expIfFalse)
 
 let num = 7;
@@ -595,3 +596,6 @@ let status = 'offline';
 let color = status === 'offline' ? 'red' : 'green';
 
 console.log(color);
+*/
+
+/*--------------------------------------------------------------------------------------------------*/
