@@ -518,6 +518,7 @@ if (color === 'purple' || color === 'lilac' || color === 'violet') {
 }
 */
 
+/*
 // Logical NOT (!)
 
 console.log(!null);
@@ -537,3 +538,11 @@ let flavor = 'watermelon';
 if (!(flavor === 'grape' || flavor === 'cherry')) {
     console.log("WE DON'T HAVE THAT FLAVOR!");
 }
+*/
+
+// Operator Precedence
+
+let x = 7;
+
+console.log(x === 7 || x === 3 && x > 10); // && Operator takes precedence over ||
+
