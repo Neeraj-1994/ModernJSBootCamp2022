@@ -54,9 +54,10 @@ shoppingList[0] = 'Bread';
 console.log(shoppingList);
 */
 
+/*
 // Push and Pop
 
-// array.push(args) - Adds one or more elements to the end of an array,
+// array.push(arg) - Adds one or more elements to the end of an array,
 // and returns the new length of the array.
 
 let topSongs = ['Party Rock Anthem', 'Bang Bang', 'Payphone', 'Girls Like You'];
@@ -82,3 +83,59 @@ const nextSong = topSongs.pop();
 console.log(nextSong);
 
 console.log(topSongs);
+*/
+
+// Shift and Unshift
+
+// array.unshift(arg) - Adds one or more elements to the front of an array,
+// and returns the new length of the array.
+
+let dishesToDo = ['big platter'];
+
+console.log(dishesToDo);
+
+dishesToDo.unshift('large plate');
+
+console.log(dishesToDo);
+
+dishesToDo.unshift('small plate');
+
+console.log(dishesToDo);
+
+dishesToDo.unshift('cereal bowl');
+
+console.log(dishesToDo);
+
+dishesToDo.unshift('mug');
+
+console.log(dishesToDo);
+
+dishesToDo.unshift('dirty spoon');
+
+console.log(dishesToDo);
+
+// array.shift() - Removes the first element from an array and returns that element.
+
+dishesToDo.shift();
+
+console.log(dishesToDo);
+
+dishesToDo.shift();
+
+console.log(dishesToDo);
+
+dishesToDo.shift();
+
+console.log(dishesToDo);
+
+dishesToDo.shift();
+
+console.log(dishesToDo);
+
+dishesToDo.shift();
+
+console.log(dishesToDo);
+
+dishesToDo.shift();
+
+console.log(dishesToDo);
