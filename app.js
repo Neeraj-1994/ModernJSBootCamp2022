@@ -494,6 +494,7 @@ if (num >= 1 && num <= 10) {
 }
 */
 
+/*
 // Logical OR (||)
 
 console.log(1 !== 1 || 10 === 10);
@@ -514,4 +515,25 @@ let color = 'violet';
 
 if (color === 'purple' || color === 'lilac' || color === 'violet') {
     console.log('Great choice!');
+}
+*/
+
+// Logical NOT (!)
+
+console.log(!null);
+
+console.log(!(0 === 0));
+
+console.log(!(3 <= 4));
+
+let loggedInUser;
+
+if (!loggedInUser) {
+    console.log('GET OUT OF HERE!');
+}
+
+let flavor = 'watermelon';
+
+if (!(flavor === 'grape' || flavor === 'cherry')) {
+    console.log("WE DON'T HAVE THAT FLAVOR!");
 }
