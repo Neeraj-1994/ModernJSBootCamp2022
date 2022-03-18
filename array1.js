@@ -139,3 +139,13 @@ console.log(dishesToDo);
 dishesToDo.shift();
 
 console.log(dishesToDo);
+
+// Adding multiple items
+
+dishesToDo.unshift('fork', 'knife');
+
+console.log(dishesToDo);
+
+dishesToDo.unshift('small spoon', 'large spoon');
+
+console.log(dishesToDo);
