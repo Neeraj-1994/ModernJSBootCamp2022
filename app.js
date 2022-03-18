@@ -468,6 +468,7 @@ else {
 }
 */
 
+/*
 // Logical AND (&&)
 
 console.log(1 <= 4 && 'a' === 'a');
@@ -490,4 +491,27 @@ if (num >= 1 && num <= 10) {
     console.log('Number is between 1 and 10');
 } else {
     console.log('Please guess a number between 1 and 10');
+}
+*/
+
+// Logical OR (||)
+
+console.log(1 !== 1 || 10 === 10);
+
+console.log(0 || undefined);
+
+console.log(10/2 === 5 || 1 === 1);
+
+let age = 78;
+
+if (age < 6 || age >= 65) {
+    console.log('You get in for free!');
+} else {
+    console.log('You must pay!');
+}
+
+let color = 'violet';
+
+if (color === 'purple' || color === 'lilac' || color === 'violet') {
+    console.log('Great choice!');
 }
