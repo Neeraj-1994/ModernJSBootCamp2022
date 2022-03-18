@@ -351,6 +351,7 @@ console.log(1 != '1');
 console.log(1 !== '1');
 */
 
+/*
 // If Statements (Syntax: if(statement) { condition if true }
 
 if (1 !== 1) {
@@ -366,4 +367,25 @@ let num = 37;
 
 if (num % 2 !== 0) {
     console.log("ODD NUMBER");
+}
+*/
+
+// Else if
+
+// Syntax: if (statement 1) {
+//         condition if statement 1 is true
+//         } else if (statement 2) {
+//         condition if statement 2 is true
+//         }
+
+let rating = 1;
+
+if (rating === 3) {
+    console.log("YOU'RE A SUPERSTAR!");
+}
+else if (rating === 2) {
+    console.log("MEETS EXPECTATIONS");
+}
+else if (rating === 1) {
+    console.log("NEEDS IMPROVEMENT");
 }
