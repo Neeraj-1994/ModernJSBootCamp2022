@@ -201,6 +201,7 @@ console.log(ingredients.indexOf('cheese', 5));
 console.log(ingredients.indexOf('cheese', 2));
 */
 
+/*
 // Reverse and Join
 
 // array.reverse() - Reverses the order of the elements of an array in place.
@@ -217,3 +218,30 @@ console.log(letters.join('&'));
 console.log(letters.reverse().join('.'));
 console.log(letters.join('-'));
 console.log(letters.join(''));
+*/
+
+// Slice
+
+// array.slice(arg) - Extracts a section of the calling array and returns a new array.
+
+let animals = ['shark', 'salmon', 'whale', 'bear', 'lizard', 'tortoise'];
+
+console.log(animals);
+
+let swimmers = animals.slice(0, 3);
+
+console.log(swimmers);
+
+let mammals = animals.slice(2, 4);
+
+console.log(mammals);
+
+let reptiles = animals.slice(4);
+
+console.log(reptiles);
+
+let quadrupeds = animals.slice(-3);
+
+console.log(quadrupeds);
+
+console.log(animals.slice(-3, -1));
