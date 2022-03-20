@@ -152,6 +152,7 @@ dishesToDo.unshift('small spoon', 'large spoon');
 console.log(dishesToDo);
 */
 
+/*
 // Concat
 
 // array1.concat(array2) - Returns a new array that is the calling array
@@ -169,3 +170,31 @@ console.log(allFoods);
 
 console.log(fruits.concat(veggies));
 console.log(veggies.concat(fruits));
+*/
+
+// Includes and IndexOf
+
+// array.includes(arg) - Determines whether the calling array contains a value,
+// returning true or false as appropriate.
+
+let ingredients = [
+  'water', 'corn starch', 'flour', 'cheese',
+    'brown sugar', 'shrimp', 'eel', 'butter'
+];
+
+console.log(ingredients.includes('fish'));
+console.log(ingredients.includes('shrimp'));
+console.log(ingredients.includes('corn'));
+console.log(ingredients.includes('flour', 1));
+
+if (ingredients.includes('flour')) {
+    console.log('I am gluten free. I can not eat that');
+}
+
+// array.indexOf(arg) - Returns the first (least) index at which a given element
+// can be found in the calling array.
+
+console.log(ingredients.indexOf('eel'));
+console.log(ingredients.indexOf('maple syrup'));
+console.log(ingredients.indexOf('cheese', 5));
+console.log(ingredients.indexOf('cheese', 2));
