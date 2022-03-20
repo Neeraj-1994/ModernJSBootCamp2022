@@ -172,6 +172,7 @@ console.log(fruits.concat(veggies));
 console.log(veggies.concat(fruits));
 */
 
+/*
 // Includes and IndexOf
 
 // array.includes(arg) - Determines whether the calling array contains a value,
@@ -198,3 +199,21 @@ console.log(ingredients.indexOf('eel'));
 console.log(ingredients.indexOf('maple syrup'));
 console.log(ingredients.indexOf('cheese', 5));
 console.log(ingredients.indexOf('cheese', 2));
+*/
+
+// Reverse and Join
+
+// array.reverse() - Reverses the order of the elements of an array in place.
+// (First becomes the last, last becomes first.)
+
+let letters = ['T', 'C', 'E', 'P', 'S', 'E', 'R'];
+
+console.log(letters.reverse());
+
+// array.join() - Joins all elements of an array into a string.
+
+console.log(letters.join());
+console.log(letters.join('&'));
+console.log(letters.reverse().join('.'));
+console.log(letters.join('-'));
+console.log(letters.join(''));
