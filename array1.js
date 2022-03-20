@@ -220,6 +220,7 @@ console.log(letters.join('-'));
 console.log(letters.join(''));
 */
 
+/*
 // Slice
 
 // array.slice(arg) - Extracts a section of the calling array and returns a new array.
@@ -245,3 +246,22 @@ let quadrupeds = animals.slice(-3);
 console.log(quadrupeds);
 
 console.log(animals.slice(-3, -1));
+*/
+
+// Splice
+
+// array.splice(args) - Adds and/or removes elements from an array.
+
+let animals = ['shark', 'salmon', 'whale', 'bear', 'lizard', 'tortoise'];
+
+console.log(animals.splice(1, 0, 'octopus'));
+console.log(animals);
+
+console.log(animals.splice(3, 2));
+console.log(animals);
+
+console.log(animals.splice(3, 0, 'snake', 'frog'));
+console.log(animals);
+
+console.log(animals.splice(0, 2, 'SHARK!', 'OCTOPUS!'));
+console.log(animals);
