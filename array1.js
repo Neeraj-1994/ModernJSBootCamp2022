@@ -248,6 +248,7 @@ console.log(quadrupeds);
 console.log(animals.slice(-3, -1));
 */
 
+/*
 // Splice
 
 // array.splice(args) - Adds and/or removes elements from an array.
@@ -265,3 +266,16 @@ console.log(animals);
 
 console.log(animals.splice(0, 2, 'SHARK!', 'OCTOPUS!'));
 console.log(animals);
+*/
+
+// Sorting (Part 1)
+
+// array.sort() - Sorts the elements of an array in place and returns the array.
+
+let people = ['Mrs.Robinson', 'Angie', 'Jolene', 'Maggie May', 'Roxanne'];
+
+console.log(people.sort());
+
+let nums = [34, 10, 10000, 67, 99];
+
+console.log(nums.sort()); // Compares UTF-16 codes
