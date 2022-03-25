@@ -268,6 +268,7 @@ console.log(animals.splice(0, 2, 'SHARK!', 'OCTOPUS!'));
 console.log(animals);
 */
 
+/*
 // Sorting (Part 1)
 
 // array.sort() - Sorts the elements of an array in place and returns the array.
@@ -279,3 +280,77 @@ console.log(people.sort());
 let nums = [34, 10, 10000, 67, 99];
 
 console.log(nums.sort()); // Compares UTF-16 codes
+*/
+
+/*
+// Intro to Reference Types
+
+let fruit = 'orange';
+
+let color = fruit;
+
+fruit = 'watermelon';
+
+console.log(fruit);
+console.log(color); // Value type variables
+
+let nums = [5, 6, 7, 8];
+
+let otherNums = nums;
+
+nums.push(9);
+
+console.log(otherNums);
+
+otherNums.pop();
+
+console.log(nums);
+
+// JS stores reference of the array instead of the whole array in the variable. Reference type variables
+*/
+
+/*
+// Using Const with Arrays
+
+const foods = ['milk'];
+
+console.log(foods);
+
+foods.push('chocolate');
+
+console.log(foods);
+
+foods.unshift('tortillas');
+
+console.log(foods);
+
+foods.pop();
+
+foods.shift();
+
+foods.pop();
+
+console.log(foods);
+
+// foods = []; Not possible when using const
+*/
+
+/*
+// Working with Nested Arrays
+
+const animalPairs = [
+    ['doe', 'buck'],
+    ['ewe', 'ram'],
+    ['peacock', 'peahen']
+];
+
+console.log(animalPairs);
+
+console.log(animalPairs[2][0]);
+
+console.log(animalPairs[1][1]);
+
+animalPairs[0][1] = 'stag';
+
+console.log(animalPairs);
+*/
