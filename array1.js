@@ -335,6 +335,7 @@ console.log(foods);
 // foods = []; Not possible when using const
 */
 
+/*
 // Working with Nested Arrays
 
 const animalPairs = [
@@ -352,3 +353,4 @@ console.log(animalPairs[1][1]);
 animalPairs[0][1] = 'stag';
 
 console.log(animalPairs);
+*/
