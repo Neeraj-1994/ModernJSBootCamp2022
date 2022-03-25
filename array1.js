@@ -282,6 +282,7 @@ let nums = [34, 10, 10000, 67, 99];
 console.log(nums.sort()); // Compares UTF-16 codes
 */
 
+/*
 // Intro to Reference Types
 
 let fruit = 'orange';
@@ -306,3 +307,50 @@ otherNums.pop();
 console.log(nums);
 
 // JS stores reference of the array instead of the whole array in the variable. Reference type variables
+*/
+
+/*
+// Using Const with Arrays
+
+const foods = ['milk'];
+
+console.log(foods);
+
+foods.push('chocolate');
+
+console.log(foods);
+
+foods.unshift('tortillas');
+
+console.log(foods);
+
+foods.pop();
+
+foods.shift();
+
+foods.pop();
+
+console.log(foods);
+
+// foods = []; Not possible when using const
+*/
+
+/*
+// Working with Nested Arrays
+
+const animalPairs = [
+    ['doe', 'buck'],
+    ['ewe', 'ram'],
+    ['peacock', 'peahen']
+];
+
+console.log(animalPairs);
+
+console.log(animalPairs[2][0]);
+
+console.log(animalPairs[1][1]);
+
+animalPairs[0][1] = 'stag';
+
+console.log(animalPairs);
+*/
