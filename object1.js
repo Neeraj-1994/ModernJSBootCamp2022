@@ -32,6 +32,7 @@ console.log(fitBitData.avgCalorieBurn);
 console.log(fitBitData.workoutsThisWeek);
 */
 
+/*
 // Accessing Object Properties
 
 const numbers = {
@@ -59,3 +60,28 @@ console.log(palette['blue']);
 let mysteryColor = 'yellow';
 
 console.log(palette[mysteryColor]); // Dynamic value to access data from an object
+*/
+
+// Adding and Updating Properties
+
+const userReviews = {};
+
+userReviews['queenBee49'] = 4.0;
+
+console.log(userReviews);
+
+userReviews.mrSmith78 = 3.5;
+
+console.log(userReviews);
+
+userReviews.queenBee49 = 5;
+
+console.log(userReviews);
+
+userReviews.queenBee49 += 2;
+
+console.log(userReviews);
+
+userReviews.mrSmith78++;
+
+console.log(userReviews);
