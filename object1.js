@@ -88,6 +88,7 @@ userReviews.mrSmith78++;
 console.log(userReviews);
 */
 
+/*
 // Nested Arrays and Objects
 
 const student = {
@@ -145,3 +146,24 @@ const game = {
 };
 
 console.log(game);
+*/
+
+// Objects and Reference Types
+
+const palette = {
+    red: '#eb4d4d',
+    yellow: '#f9ca24',
+    blue: '#30336b'
+};
+
+const palette2 = palette;
+
+console.log(palette);
+
+console.log(palette2);
+
+palette2.green = '#ebf876';
+
+console.log(palette);
+
+console.log(palette2);
