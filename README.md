@@ -146,7 +146,7 @@
 5.14 Working with Nested Arrays
 </details>
 
-<details open>
+<details>
 <summary>
 <span style="font-size: 16px; font-weight: bold;">6. Objects - The Core of JavaScript</span>
 </summary>
@@ -165,6 +165,36 @@
 
 6.7 ArrayObject Equality
 
+</details>
+
+<details open>
+<summary>
+<span style="font-size: 16px; font-weight: bold;">7. The World of Loops</span>
+</summary>
+
+7.1 Intro to Loops
+
+7.2 For Loops
+
+7.3 Infinite Loops!
+
+7.4 For Loops & Arrays
+
+7.5 Nested For Loops
+
+7.6 Intro to While Loops
+
+7.7 More While Loops
+
+7.8 Break Keyword
+
+7.9 For...Of Intro
+
+7.10 Comparing For and For...Of
+
+7.11 For...Of with Objects
+
+7.12 For...In Loops
 </details>
 
 ## Branching Diagram
