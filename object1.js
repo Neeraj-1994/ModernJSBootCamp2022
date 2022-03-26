@@ -148,6 +148,7 @@ const game = {
 console.log(game);
 */
 
+/*
 // Objects and Reference Types
 
 const palette = {
@@ -167,3 +168,34 @@ palette2.green = '#ebf876';
 console.log(palette);
 
 console.log(palette2);
+*/
+
+// ArrayObject Equality
+
+let nums = [1, 2, 3];
+let mystery = [1, 2, 3];
+
+console.log(nums === mystery);
+console.log(nums == mystery);
+
+let moreNums = nums;
+
+console.log(nums === moreNums);
+console.log(nums == moreNums);
+
+moreNums.push(4);
+
+console.log(nums === moreNums);
+console.log(nums == moreNums);
+
+const user = {
+    userName: 'CherryGarcia8',
+    email: 'garcia@gmail.com',
+    notifications: []
+};
+
+if (user.notifications === []) console.log('No new notifications!');
+
+if (!user.notifications.length) console.log('No new notifications!');
+
+// Don't use comparisons such as [] === []. They have totally different references
