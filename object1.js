@@ -62,6 +62,7 @@ let mysteryColor = 'yellow';
 console.log(palette[mysteryColor]); // Dynamic value to access data from an object
 */
 
+/*
 // Adding and Updating Properties
 
 const userReviews = {};
@@ -85,3 +86,62 @@ console.log(userReviews);
 userReviews.mrSmith78++;
 
 console.log(userReviews);
+*/
+
+// Nested Arrays and Objects
+
+const student = {
+    firstName: 'David',
+    lastName: 'Jones',
+    strengths: ['Music', 'Art'],
+    exams: {
+        midterm: 92,
+        final: 88
+    }
+};
+
+console.log(student);
+
+const avgMarks = (student.exams.midterm + student.exams.final) / 2;
+
+console.log(avgMarks);
+
+console.log(student.strengths[1]);
+
+const shoppingCart = [
+    {
+        product: 'Jenga Classic',
+        price: 6.88,
+        quantity: 1
+    },
+    {
+        product: 'Echo Dot',
+        price: 29.99,
+        quantity: 3
+    },
+    {
+        product: 'Fire Stick',
+        price: 39.99,
+        quantity: 2
+    }
+];
+
+console.log(shoppingCart);
+
+const game = {
+    player1: {
+        userName: 'Blue',
+        playingAs: 'X'
+    },
+    player2: {
+        userName: 'Muffins',
+        playingAs: 'O'
+    },
+    board: [
+        ['X', 'O', null],
+        ['X', 'O', 'X'],
+        [null, 'X', 'O']
+    ]
+};
+
+console.log(game);
