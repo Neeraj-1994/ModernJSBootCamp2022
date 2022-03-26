@@ -32,6 +32,7 @@ console.log(fitBitData.avgCalorieBurn);
 console.log(fitBitData.workoutsThisWeek);
 */
 
+/*
 // Accessing Object Properties
 
 const numbers = {
@@ -59,3 +60,144 @@ console.log(palette['blue']);
 let mysteryColor = 'yellow';
 
 console.log(palette[mysteryColor]); // Dynamic value to access data from an object
+*/
+
+/*
+// Adding and Updating Properties
+
+const userReviews = {};
+
+userReviews['queenBee49'] = 4.0;
+
+console.log(userReviews);
+
+userReviews.mrSmith78 = 3.5;
+
+console.log(userReviews);
+
+userReviews.queenBee49 = 5;
+
+console.log(userReviews);
+
+userReviews.queenBee49 += 2;
+
+console.log(userReviews);
+
+userReviews.mrSmith78++;
+
+console.log(userReviews);
+*/
+
+/*
+// Nested Arrays and Objects
+
+const student = {
+    firstName: 'David',
+    lastName: 'Jones',
+    strengths: ['Music', 'Art'],
+    exams: {
+        midterm: 92,
+        final: 88
+    }
+};
+
+console.log(student);
+
+const avgMarks = (student.exams.midterm + student.exams.final) / 2;
+
+console.log(avgMarks);
+
+console.log(student.strengths[1]);
+
+const shoppingCart = [
+    {
+        product: 'Jenga Classic',
+        price: 6.88,
+        quantity: 1
+    },
+    {
+        product: 'Echo Dot',
+        price: 29.99,
+        quantity: 3
+    },
+    {
+        product: 'Fire Stick',
+        price: 39.99,
+        quantity: 2
+    }
+];
+
+console.log(shoppingCart);
+
+const game = {
+    player1: {
+        userName: 'Blue',
+        playingAs: 'X'
+    },
+    player2: {
+        userName: 'Muffins',
+        playingAs: 'O'
+    },
+    board: [
+        ['X', 'O', null],
+        ['X', 'O', 'X'],
+        [null, 'X', 'O']
+    ]
+};
+
+console.log(game);
+*/
+
+/*
+// Objects and Reference Types
+
+const palette = {
+    red: '#eb4d4d',
+    yellow: '#f9ca24',
+    blue: '#30336b'
+};
+
+const palette2 = palette;
+
+console.log(palette);
+
+console.log(palette2);
+
+palette2.green = '#ebf876';
+
+console.log(palette);
+
+console.log(palette2);
+*/
+
+/*
+// ArrayObject Equality
+
+let nums = [1, 2, 3];
+let mystery = [1, 2, 3];
+
+console.log(nums === mystery);
+console.log(nums == mystery);
+
+let moreNums = nums;
+
+console.log(nums === moreNums);
+console.log(nums == moreNums);
+
+moreNums.push(4);
+
+console.log(nums === moreNums);
+console.log(nums == moreNums);
+
+const user = {
+    userName: 'CherryGarcia8',
+    email: 'garcia@gmail.com',
+    notifications: []
+};
+
+if (user.notifications === []) console.log('No new notifications!');
+
+if (!user.notifications.length) console.log('No new notifications!');
+
+// Don't use comparisons such as [] === []. They have totally different references
+*/
