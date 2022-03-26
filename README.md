@@ -112,7 +112,7 @@
 4.16 Ternary Operator
 </details>
 
-<details open>
+<details>
 <summary>
 <span style="font-size: 16px; font-weight: bold;">5. Capture Collections of Data with Arrays</span>
 </summary>
@@ -144,6 +144,27 @@
 5.13 Using Const with Arrays
 
 5.14 Working with Nested Arrays
+</details>
+
+<details open>
+<summary>
+<span style="font-size: 16px; font-weight: bold;">6. Objects - The Core of JavaScript</span>
+</summary>
+
+6.1 Intro to Objects
+
+6.2 Creating Object Literals
+
+6.3 Accessing Object Properties
+
+6.4 Adding and Updating Properties
+
+6.5 Nested Arrays & Objects
+
+6.6 Objects and Reference Types
+
+6.7 ArrayObject Equality
+
 </details>
 
 ## Branching Diagram
