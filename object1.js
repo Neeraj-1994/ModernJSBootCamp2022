@@ -170,6 +170,7 @@ console.log(palette);
 console.log(palette2);
 */
 
+/*
 // ArrayObject Equality
 
 let nums = [1, 2, 3];
@@ -199,3 +200,4 @@ if (user.notifications === []) console.log('No new notifications!');
 if (!user.notifications.length) console.log('No new notifications!');
 
 // Don't use comparisons such as [] === []. They have totally different references
+*/
